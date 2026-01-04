@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Lightchaser</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div data-include-path="components/header.html"></div>
+
+    <main>
+      <section class="sub-visual">
+        <h2>SELECTED WORKS</h2>
+        <p>Our journey of light and space.</p>
+      </section>
+
+      <section class="project-area">
+        <div class="filter-menu">
+          <button class="btn-filter active" data-filter="all">ALL</button>
+          <button class="btn-filter" data-filter="mf">MEDIA FACADE</button>
+          <button class="btn-filter" data-filter="pf">PERFORMANCE</button>
+        </div>
+
+        <div class="project-grid">
+          <div class="proj-item mf">
+            <a href="project-detail.html?id=gwanghwa">
+              <div class="thumb">
+                <img
+                  src="assets/images/project/mf/proj-mf-gwanghwa.jpg"
+                  alt="아뜰리에 광화"
+                />
+                <div class="overlay">
+                  <span class="view-txt">View Project</span>
+                </div>
+              </div>
+              <div class="info">
+                <h3>아뜰리에 광화</h3>
+                <span class="tag">#ProjectionMapping</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="proj-item mf">
+            <div class="thumb">
+              <img
+                src="assets/images/project/mf/proj-mf-shinsegae.jpg"
+                alt="신세계 미디어파사드"
+              />
+              <div class="overlay">
+                <span class="view-txt">View Project</span>
+              </div>
+            </div>
+            <div class="info">
+              <h3>신세계 미디어 파사드</h3>
+              <span class="tag">#Display #Seoul</span>
+            </div>
+          </div>
+
+          <div class="proj-item pf">
+            <div class="thumb">
+              <img
+                src="assets/images/project/pf/proj-pf-nepenthes.jpg"
+                alt="네펜더스"
+              />
+              <div class="overlay">
+                <span class="view-txt">View Project</span>
+              </div>
+            </div>
+            <div class="info">
+              <h3>Nepenthes (네펜더스)</h3>
+              <span class="tag">#Performance</span>
+            </div>
+          </div>
+
+          <div class="proj-item pf">
+            <div class="thumb">
+              <img src="assets/images/project/pf/proj-pf-puzo.jpg" alt="푸조" />
+              <div class="overlay">
+                <span class="view-txt">View Project</span>
+              </div>
+            </div>
+            <div class="info">
+              <h3>PUZO</h3>
+              <span class="tag">#Performance</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include-path="components/footer.html"></div>
+
+    <script src="js/include.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+  </body>
+</html>

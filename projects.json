@@ -1,0 +1,45 @@
+{
+  "gwanghwa": {
+    "title": "아뜰리에 광화",
+    "category": "Media Facade",
+    "description": "도시의 서사를 빛으로 기록하다",
+    "client": "Seoul City",
+    "location": "Sejong Center, Seoul",
+    "year": "2025",
+    "role": "Art Directing, Technical Mapping",
+    "mainVideo": "assets/videos/gwanghwa-main.mp4",
+    "creativeTitle": "예술적 영감을 디지털 소스로 구축하다",
+    "creativeSteps": [
+      {
+        "num": "STEP 01",
+        "title": "Source Creation",
+        "desc": "작가 원화 분석 및 레이어 분리 작업"
+      },
+      {
+        "num": "STEP 02",
+        "title": "Motion Graphics",
+        "desc": "이미지를 공간감 있는 영상 소스로 모션화"
+      },
+      {
+        "num": "STEP 03",
+        "title": "Tone Adjustment",
+        "desc": "현장 투사 환경을 고려한 최종 톤 조절"
+      }
+    ],
+    "creativeImg": "assets/images/project/mf/gwanghwa-process-01.jpg",
+    "creativeCaption": "▲ 원화 레이어 분리 및 소스 제작 과정",
+    "techTitle": "정밀한 설계로 공간을 정렬하다",
+    "techList": [
+      { "label": "System Design", "val": "건축물 도면 기반 정밀 시뮬레이션" },
+      {
+        "label": "Field Projection",
+        "val": "50,000 ANSI 루멘급 프로젝터 투사"
+      },
+      { "label": "Projection Mapping", "val": "파사드 구조에 맞춘 픽셀 매핑" }
+    ],
+    "techImg": "assets/images/project/mf/gwanghwa-drawing.jpg",
+    "finalVideo1": "assets/videos/gwanghwa-main11.mp4",
+    "finalVideo2": "assets/videos/gwanghwa-main3.mp4",
+    "finalImage": "assets/images/project/mf/gwanghwa-result-01.jpg"
+  }
+}
